@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                echo 'Source code checkout from Github'
+                echo 'Source code checkout from Github. Testing webhook'
             }
         }
         stage('build') {
